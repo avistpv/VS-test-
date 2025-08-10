@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+I :root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-width: 320px;
+  min-height: 100vh;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+html,
+body {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.custom-button-hero,
+.custom-btn-dressWithLove,
+.custom-btn-forYourSpace,
+.custom-btn-ChooseYourPerfectFit,
+.custom-btn-ChooseYourPerfectFitTwo {
+  font-weight: 700;
+  border: 1px solid #c31f5c !important;
+  box-shadow: 0 2px 0 0 rgba(195, 31, 92, 0.1) !important;
+  transition: all 0.3s ease !important;
+  outline: none !important;
+}
+
+.custom-button-hero:hover,
+.custom-btn-dressWithLove:hover,
+.custom-btn-ChooseYourPerfectFit:hover {
+  background-color: #ffffff !important;
+  color: #121212 !important;
+}
+
+.custom-btn-forYourSpace:hover,
+.custom-btn-ChooseYourPerfectFitTwo:hover {
+  background-color: #c31f5c !important;
+  color: #ffffff !important;
+}
